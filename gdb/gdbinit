@@ -1,0 +1,16 @@
+
+set confirm off
+set verbose off
+set disassembly-flavor intel
+set print thread-events off
+
+# colors are nice
+# set prompt \033[31mgdb$ \033[0m
+
+# some handy macros
+define argv
+    show args
+end
+document argv
+    Show program arguments
+end

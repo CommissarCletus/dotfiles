@@ -1,0 +1,53 @@
+!! *foreground:  #fce8c3
+!! *foreground:  #e4e0c7
+*.foreground:  #e6d6ac
+
+*.background:  #1c1a1a
+*.cursorColor: #e6d6ac
+
+!! black dark/light
+*.color0:  #1c1b19
+*.color8:  #2d2b28
+
+!! red dark/light
+*.color1:  #e68183
+*.color9:  #e68183
+
+!! green dark/light
+*.color2:  #87af87
+*.color10: #87af87
+
+!! yellow dark/light
+*.color3:  #d7ba7d
+*.color11: #d7ba7d
+
+!! blue dark/light
+*.color4:  #89beba
+*.color12: #89beba
+
+!! magenta dark/light
+*.color5:  #e02c6d
+*.color13: #e35682
+
+!! cyan dark/light
+*.color6:  #89bdb2
+*.color14: #89bdb2
+
+!! white dark/light
+!! *.color7:  #918175
+!! *.color15: #fce8c3
+*.color7:  #e4e0c7
+*.color15: #e4e0c7
+
+URxvt.lineSpace: 0
+
+URxvt*font: xft:gohufont:pixelsize=14
+URxvt*letterSpace: 0
+
+URxvt*inheritPixmap: true
+URxvt*transparent: true
+URxvt*shading: 50
+URxvt*scrollBar: false
+
+! URxvt.keysym.M-C-1: command:\033]710;suxuseuro\007\033]711;suxuseuro\007
+! URxvt.keysym.M-C-2: command:\033]710;9x15bold\007\033]711;9x15bold\007

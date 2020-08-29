@@ -1,0 +1,3 @@
+#!/bin/sh
+# feh  --bg-fill '/home/jp/Wallpaper/lain_darkblue_small.png' 
+xsetroot -solid '#1c1a1a'

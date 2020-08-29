@@ -1,0 +1,71 @@
+set nocompatible
+set autoread
+set encoding=utf-8
+
+syntax on 
+filetype on
+filetype plugin on
+filetype indent on
+
+execute pathogen#infect()
+set incsearch
+set ignorecase
+set wildmenu
+set wildmode=longest,list,full
+set number
+set nowrap
+set equalalways
+set laststatus=2
+set showmatch
+set showmode
+set showcmd
+set cursorline
+set title
+set noerrorbells
+set lazyredraw
+set virtualedit=onemore
+set t_Co=256
+set t_ut=
+colorscheme apprentice
+
+set nocindent
+set nosmartindent
+set autoindent
+set noexpandtab
+set smarttab
+set nopreserveindent
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
+let NERDTreeIgnore = [ '\.o$', '\.lo$' ]
+
+inoremap jk <Esc>
+inoremap jj <Esc>
+
+map <silent> ,p :NERDTreeToggle<CR>
+map <silent> ,P :NERDTreeFind<CR>
+
+nnoremap tl :tselect<cr>
+nnoremap tn :tnext<cr>
+nnoremap tN :tprev<cr>
+nnoremap tgg :tfirst<cr>
+nnoremap tG :tlast<cr>
+nnoremap ,t <C-]>
+
+nnoremap <C-c> <Nop>
+
+nnoremap M <Nop>
+nnoremap N <Nop>
+nnoremap K <nop>
+
+vnoremap . :normal .<cr>
+
+if filereadable(".local.vim")
+    so .local.vim
+endif
+
+autocmd FileType html setlocal tabstop=2
+autocmd FileType html setlocal softtabstop=2
+autocmd FileType html setlocal shiftwidth=2
+autocmd FileType html setlocal smartindent
