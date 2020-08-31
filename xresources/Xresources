@@ -10,15 +10,15 @@
 *.color8:  #2d2b28
 
 !! red dark/light
-*.color1:  #e68183
+*.color1:  #cc241d
 *.color9:  #e68183
 
 !! green dark/light
-*.color2:  #87af87
+*.color2:  #abbf65
 *.color10: #87af87
 
 !! yellow dark/light
-*.color3:  #d7ba7d
+*.color3:  #d79921
 *.color11: #d7ba7d
 
 !! blue dark/light
@@ -26,11 +26,11 @@
 *.color12: #89beba
 
 !! magenta dark/light
-*.color5:  #e02c6d
-*.color13: #e35682
+*.color5:  #b16286
+*.color13: #d3a0bc
 
 !! cyan dark/light
-*.color6:  #89bdb2
+*.color6:  #689d6a
 *.color14: #89bdb2
 
 !! white dark/light

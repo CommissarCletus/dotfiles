@@ -26,7 +26,7 @@ set lazyredraw
 set virtualedit=onemore
 set t_Co=256
 set t_ut=
-colorscheme apprentice
+colorscheme retro
 
 set nocindent
 set nosmartindent
@@ -69,3 +69,10 @@ autocmd FileType html setlocal tabstop=2
 autocmd FileType html setlocal softtabstop=2
 autocmd FileType html setlocal shiftwidth=2
 autocmd FileType html setlocal smartindent
+
+function! SynStack()
+	if !exists("*synstack")
+		return
+	endif
+	echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
+endfunc

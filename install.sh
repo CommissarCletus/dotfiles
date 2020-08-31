@@ -73,7 +73,11 @@ function install_top() {
 
 function install_vim() {
 	install vim/vimrc .vimrc
-	# install vim/vim   .vim
+
+	$MKDIR "$PREFIX/.vim/bundle"
+	$MKDIR "$PREFIX/.vim/bundle/retro"
+	$MKDIR "$PREFIX/.vim/bundle/retro/colors"
+	install vim/retro.vim .vim/bundle/retro/colors/retro.vim
 }
 
 function install_xresources() {

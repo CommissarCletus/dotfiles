@@ -1,3 +1,4 @@
+# vim: set syntax=gdb :
 
 set confirm off
 set verbose off
